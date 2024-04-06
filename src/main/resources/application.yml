@@ -1,0 +1,18 @@
+server:
+  port: 8082
+  
+spring:
+  application:
+    name: welcome
+    
+# here we can not change the api name as we want. it should to be matched to git repo file name
+
+
+# for the greet api we need to specify where the config server running. as below
+
+  config:
+    import: optional:configserver:http://localhost:8080
+    
+#  config is child of spring and import is child of config
+
+
