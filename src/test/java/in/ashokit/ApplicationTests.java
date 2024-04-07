@@ -9,5 +9,6 @@ class ApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+Int x = 20;
 
 }
